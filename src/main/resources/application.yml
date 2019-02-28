@@ -1,0 +1,17 @@
+application:
+  redis:
+    channel:
+  tio:
+    server: true
+    server-host: 192.168.1.101
+    port: 6789
+    heartbeat-timeout: 5000
+spring:
+  redis:
+    host: 192.168.1.101
+    port: 6379
+    password: videon
+logging:
+  level:
+    ROOT: info
+    cn.videon.redis.message: debug
